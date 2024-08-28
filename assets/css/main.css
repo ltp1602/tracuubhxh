@@ -21,12 +21,12 @@
     text-align: center;
 }
 
-.container-quyenloi label{
+.container-quyenloi p{
     color: white;
     padding-left: 10px;
 }
 
-.container-quyenloi label span{
+.container-quyenloi p span{
     color: #f5a425;
 }
 
@@ -207,4 +207,24 @@
   
   #button-3 .checkbox:checked ~ .layer {
     background-color: #fcebeb;
+  }
+
+  th{
+    border: 1px #f5a425 solid !important;
+    text-align: center;
+    align-content: center;
+  }
+
+  td{
+    border: 1px #f5a425 solid !important;
+    text-align: center;
+    align-content: center;
+  }
+
+  tbody tr:hover{
+    color:#f5a425 !important;
+  }
+
+  table{
+    color:white !important;
   }
